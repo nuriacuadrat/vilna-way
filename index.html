@@ -1,35 +1,51 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vilna Way - Discover Korea</title>
-    <link rel="stylesheet" href="styles.css">
-</head>    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vilna Way - Discover Korea</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
 <body>
+  <!-- Header Section -->
   <header>
-    <h1>Bienvenidos a Vilna Way</h1>
-    <p>Explora eventos únicos en Corea del Sur</p>
+    <h1>Welcome to Vilna Way</h1>
+    <p>Discover unique events and experiences in South Korea</p>
   </header>
 
-  <section id="eventos">
-    <h2>Eventos Disponibles</h2>
-  
-    <div class="evento">
+  <!-- Events Section -->
+  <section id="events">
+    <h2>Upcoming Events</h2>
+    <div class="event">
       <h3>Traditional Tea Ceremony</h3>
-      <p>Ubicación: Insa-dong, Seúl</p>
-      <p>Precio: 45,000 KRW</p>
-      <p>Duración: 1.5 horas</p>
+      <p>Location: Insa-dong, Seoul</p>
+      <p>Price: 45,000 KRW</p>
+      <p>Duration: 1.5 hours</p>
     </div>
-  
-    <div class="evento">
+    <div class="event">
       <h3>BTS Museum Experience</h3>
-      <p>Ubicación: Gangnam, Seúl</p>
-      <p>Precio: 35,000 KRW</p>
-      <p>Duración: 2 horas</p>
+      <p>Location: Gangnam, Seoul</p>
+      <p>Price: 35,000 KRW</p>
+      <p>Duration: 2 hours</p>
     </div>
-  </section>  
+    <!-- Add more events as needed -->
+  </section>
 
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
   <footer>
     <p>© 2024 Vilna Way</p>
   </footer>
